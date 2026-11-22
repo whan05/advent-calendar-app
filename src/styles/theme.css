@@ -1,0 +1,52 @@
+/**
+ * Paleta de colores cálida y navideña + tipografías.
+ * Centralizada en variables CSS para mantener consistencia visual
+ * y facilitar futuras personalizaciones.
+ */
+:root {
+  /* Fondos profundos de bosque invernal y calor de hogar */
+  --color-bg-deep: #0b1b15;
+  --color-bg-pine: #132a21;
+  --color-bg-hearth: #2a1813;
+
+  /* Tonos cálidos navideños */
+  --color-crimson: #94222b;
+  --color-crimson-bright: #b6323c;
+  --color-crimson-dark: #5e1319;
+
+  --color-pine-card: #183a2d;
+  --color-pine-card-hover: #214e3d;
+
+  --color-cinnamon: #6c3822;
+  --color-cinnamon-hover: #85462b;
+
+  /* Dorados suaves y luminosos */
+  --color-gold: #dfb056;
+  --color-gold-bright: #f5d48a;
+  --color-gold-muted: rgba(223, 176, 86, 0.34);
+  --color-gold-soft: rgba(245, 212, 138, 0.14);
+
+  /* Papel pergamino cálido para las cartas */
+  --color-parchment: #fbf4e6;
+  --color-parchment-deep: #f2e5cc;
+  --color-parchment-border: #d9be8d;
+
+  /* Textos */
+  --color-text-light: #fdf7ec;
+  --color-text-muted: #d7cbb8;
+  --color-ink: #382117;
+  --color-ink-soft: #634434;
+
+  /* Tipografías */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-handwriting: 'Dancing Script', cursive;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  /* Radios y sombras */
+  --radius-card: 22px;
+  --radius-letter: 26px;
+  --shadow-card: 0 16px 36px rgba(4, 12, 9, 0.42);
+  --shadow-gold-glow: 0 0 28px rgba(245, 212, 138, 0.24);
+  --shadow-letter: 0 28px 75px rgba(0, 0, 0, 0.58);
+}
+
